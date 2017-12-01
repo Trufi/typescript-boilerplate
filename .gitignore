@@ -3,6 +3,5 @@
 .DS_Store
 npm-debug.log
 package-lock.json
-yarn.lock
 node_modules/
 dist/
