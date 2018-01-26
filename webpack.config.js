@@ -9,7 +9,7 @@ module.exports = (env = {}) => {
 
     const plugins = [tsCheckerPlugin];
 
-    if (env.producton) {
+    if (env.production) {
         plugins.push(new webpack.optimize.UglifyJsPlugin({sourceMap: true}));
     }
 
