@@ -22,6 +22,7 @@
         "quotemark": [true, "single", "avoid-escape"],
         "space-in-parens": [true, "never"],
         "ter-no-tabs": true,
+        "no-unused-variable": true,
         "ter-arrow-parens": [true],
         "no-shadowed-variable": false,
         "ordered-imports": [false],
