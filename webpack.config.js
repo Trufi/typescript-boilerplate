@@ -6,16 +6,18 @@ module.exports = (_, args) => {
 
     return {
         module: {
-            rules: [{
-                test: /(\.ts|\.tsx)$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'ts-loader',
-                    options: {
-                        transpileOnly: true,
+            rules: [
+                {
+                    test: /(\.ts|\.tsx)$/,
+                    exclude: /node_modules/,
+                    use: {
+                        loader: 'ts-loader',
+                        options: {
+                            transpileOnly: true,
+                        },
                     },
                 },
-            }],
+            ],
         },
 
         resolve: {
@@ -32,7 +34,7 @@ module.exports = (_, args) => {
 
         plugins: [
             new ForkTsCheckerWebpackPlugin({
-            watch: ['./src'],
+                watch: ['./src'],
             }),
         ],
 
@@ -45,6 +47,6 @@ module.exports = (_, args) => {
                 modules: false,
             },
             disableHostCheck: true,
-        }
+        },
     };
 };

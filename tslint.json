@@ -1,8 +1,5 @@
 {
-    "extends": [
-        "tslint:recommended",
-        "tslint-eslint-rules"
-    ],
+    "extends": ["tslint:recommended", "tslint-eslint-rules"],
     "rules": {
         "no-console": false,
         "no-constant-condition": true,
@@ -10,8 +7,8 @@
         "no-multi-spaces": true,
         "array-bracket-spacing": [true, "never"],
         "block-spacing": [true, "always"],
-        "brace-style": [true, "1tbs", {"allowSingleLine": true}],
-        "ter-indent": [true, 4, {"SwitchCase": 1}],
+        "brace-style": [true, "1tbs", { "allowSingleLine": true }],
+        "ter-indent": [true, 4, { "SwitchCase": 1 }],
         "linebreak-style": [true, "LF"],
         "ter-max-len": [true, 100, 4],
         "no-bitwise": false,
@@ -33,7 +30,7 @@
         "no-namespace": [true, "allow-decalarations"],
         "object-literal-sort-keys": false,
         "prefer-for-of": false,
-        "trailing-comma": [true, {"singleline": "never", "multiline": "always"}],
+        "trailing-comma": [true, { "singleline": "never", "multiline": "always" }],
         "no-string-literal": false,
         "no-var-requires": false,
         "no-irregular-whitespace": true,
@@ -51,13 +48,13 @@
             true,
             {
                 "order": [
-                "public-instance-field",
-                "protected-instance-field",
-                "private-instance-field",
-                "constructor",
-                "public-instance-method",
-                "protected-instance-method",
-                "private-instance-method"
+                    "public-instance-field",
+                    "protected-instance-field",
+                    "private-instance-field",
+                    "constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
                 ]
             }
         ]
