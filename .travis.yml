@@ -3,13 +3,13 @@ sudo: false
 node_js: '10'
 
 before_deploy:
-  - mkdir public
-  - mv index.html dist public
+    - mkdir public
+    - mv index.html dist public
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local-dir: public
-  on:
-    branch: master
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local-dir: public
+    on:
+        branch: master

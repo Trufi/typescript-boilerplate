@@ -1,36 +1,38 @@
 {
-  "name": "typescript-boilerplate",
-  "version": "0.0.2",
-  "description": "Typescript boilerplate for new projects",
-  "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Trufi/typescript-boilerplate.git"
-  },
-  "author": {
-    "name": "Mstislav Zhivodkov",
-    "email": "stevemyz@gmail.com",
-    "url": "https://trufi.github.io/"
-  },
-  "license": "MIT",
-  "scripts": {
-    "start": "npm run dev",
-    "build": "webpack --mode=production",
-    "dev": "webpack-dev-server --mode=development",
-    "lint": "tslint 'src/**/*.ts'",
-    "test": "npm run lint && npm run build"
-  },
-  "dependencies": {
-    "tslib": "^1.9.3"
-  },
-  "devDependencies": {
-    "fork-ts-checker-webpack-plugin": "^0.5.0",
-    "ts-loader": "^5.3.0",
-    "tslint": "^5.11.0",
-    "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.1.6",
-    "webpack": "^4.26.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14"
-  }
+    "name": "typescript-boilerplate",
+    "version": "0.0.2",
+    "description": "Typescript boilerplate for new projects",
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Trufi/typescript-boilerplate.git"
+    },
+    "author": {
+        "name": "Mstislav Zhivodkov",
+        "email": "stevemyz@gmail.com",
+        "url": "https://trufi.github.io/"
+    },
+    "license": "MIT",
+    "scripts": {
+        "start": "npm run dev",
+        "build": "webpack --mode=production",
+        "dev": "webpack-dev-server --mode=development",
+        "lint": "tslint 'src/**/*.ts'",
+        "prettier": "prettier --check \"./**/*.{ts,tsx,js,json,html,css}\"",
+        "test": "npm run lint && npm run prettier && npm run build"
+    },
+    "dependencies": {
+        "tslib": "^1.9.3"
+    },
+    "devDependencies": {
+        "fork-ts-checker-webpack-plugin": "^0.5.0",
+        "prettier": "^1.16.4",
+        "ts-loader": "^5.3.0",
+        "tslint": "^5.11.0",
+        "tslint-eslint-rules": "^5.4.0",
+        "typescript": "^3.1.6",
+        "webpack": "^4.26.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.14"
+    }
 }

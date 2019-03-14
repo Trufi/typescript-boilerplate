@@ -13,7 +13,7 @@
         "brace-style": [true, "1tbs", {"allowSingleLine": true}],
         "ter-indent": [true, 4, {"SwitchCase": 1}],
         "linebreak-style": [true, "LF"],
-        "ter-max-len": [true, 120, 4],
+        "ter-max-len": [true, 100, 4],
         "no-bitwise": false,
         "indent": [true, "spaces", 4],
         "no-trailing-whitespace": true,
@@ -45,6 +45,8 @@
         "no-redundant-jsdoc": true,
         "jsdoc-format": true,
         "no-inferrable-types": true,
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "member-access": true,
         "member-ordering": [
             true,
             {
