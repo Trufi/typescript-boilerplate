@@ -2,9 +2,11 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const path = require('path');
 
 module.exports = (_, args) => {
-    const production = args.mode === 'production';
+    const mode = args.production ? 'production' : 'development';
 
     return {
+        mode,
+
         module: {
             rules: [
                 {
@@ -38,7 +40,7 @@ module.exports = (_, args) => {
             }),
         ],
 
-        devtool: production ? false : 'source-map',
+        devtool: mode === 'production' ? false : 'source-map',
 
         devServer: {
             host: '0.0.0.0',
