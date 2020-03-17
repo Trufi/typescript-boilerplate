@@ -6,6 +6,7 @@
         "triple-equals": true,
         "no-multi-spaces": true,
         "array-bracket-spacing": [true, "never"],
+        "array-type": [true, "array-simple"],
         "block-spacing": [true, "always"],
         "brace-style": [true, "1tbs", { "allowSingleLine": true }],
         "linebreak-style": [true, "LF"],
