@@ -34,9 +34,7 @@ module.exports = (_, args) => {
             publicPath: '/dist',
         },
 
-        plugins: [
-            new ForkTsCheckerWebpackPlugin(),
-        ],
+        plugins: [new ForkTsCheckerWebpackPlugin()],
 
         devtool: mode === 'production' ? false : 'source-map',
 
@@ -47,6 +45,7 @@ module.exports = (_, args) => {
                 modules: false,
             },
             disableHostCheck: true,
+            publicPath: '/dist',
         },
     };
 };
