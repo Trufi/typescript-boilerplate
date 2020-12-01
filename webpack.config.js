@@ -35,9 +35,7 @@ module.exports = (_, args) => {
         },
 
         plugins: [
-            new ForkTsCheckerWebpackPlugin({
-                watch: ['./src'],
-            }),
+            new ForkTsCheckerWebpackPlugin(),
         ],
 
         devtool: mode === 'production' ? false : 'source-map',
