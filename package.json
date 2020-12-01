@@ -15,7 +15,7 @@
     "license": "MIT",
     "scripts": {
         "start": "npm run dev",
-        "build": "webpack --production",
+        "build": "webpack --env=production",
         "dev": "webpack serve",
         "lint": "tslint 'src/**/*.ts'",
         "prettier": "prettier --check \"./**/*.{ts,tsx,js,json,html,css}\"",
