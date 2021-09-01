@@ -20,7 +20,7 @@ jobs:
         run: |
           npm ci
           npm run build
-          cp -r dist index.html public
+          cp -r dist public
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
