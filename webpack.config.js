@@ -41,11 +41,7 @@ module.exports = (env) => {
         devServer: {
             host: '0.0.0.0',
             port: 3000,
-            stats: {
-                modules: false,
-            },
-            disableHostCheck: true,
-            publicPath: '/dist',
+            allowedHosts: 'all',
         },
     };
 };
