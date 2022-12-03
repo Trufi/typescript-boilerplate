@@ -2,7 +2,6 @@
     "name": "typescript-boilerplate",
     "version": "0.0.2",
     "description": "Typescript boilerplate for new projects",
-    "main": "dist/index.js",
     "source": "src/index.html",
     "repository": {
         "type": "git",
