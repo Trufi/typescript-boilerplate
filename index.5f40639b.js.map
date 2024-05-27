@@ -1,1 +1,1 @@
-{"mappings":"AAAAA,QAAQC,IAAI","sources":["src/index.ts"],"sourcesContent":["console.log('Hello, world!');\n"],"names":["console","log"],"version":3,"file":"index.5f40639b.js.map"}
+{"mappings":"ACAA,QAAQ,GAAG,CAAC","sources":["<anon>","src/index.ts"],"sourcesContent":["var $b4e14b6b8da86996$exports = {};\nconsole.log(\"Hello, world!\");\n\n\n//# sourceMappingURL=index.5f40639b.js.map\n","console.log('Hello, world!');\n"],"names":["console","log"],"version":3,"file":"index.5f40639b.js.map"}
