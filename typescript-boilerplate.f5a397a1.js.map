@@ -1,0 +1,1 @@
+{"mappings":"ACAA,QAAQ,GAAG,CAAC","sources":["<anon>","src/index.ts"],"sourcesContent":["var $b4e14b6b8da86996$exports = {};\nconsole.log('Hello, world!');\n\n\n//# sourceMappingURL=typescript-boilerplate.f5a397a1.js.map\n","console.log('Hello, world!');\n"],"names":["console","log"],"version":3,"file":"typescript-boilerplate.f5a397a1.js.map"}
